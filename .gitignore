@@ -1,1 +1,3 @@
+# Gracias a .gitignore podemos eliminar la carpeta node_modules/ que se importo desde el local
 node_modules/
+
