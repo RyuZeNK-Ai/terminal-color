@@ -1,7 +1,8 @@
 <h1 align="center">🎙️ La Terminal Parlante 🎙️ </h1>
 
-Este proyecto fue desarrollado en el contexto del aprendizaje de **Node.js**, **npm**, **terminal**, y **trabajo colaborativo con Git**.  
-El **objetivo** fue crear un programa que mostrara mensajes estilizados en la consola usando la librería **chalk**, aplicando estructuras de desarrollo grupal y control de versiones.
+Este proyecto fue desarrollado como parte del aprendizaje de **JavaScript** aplicado en entorno de **Node.js**, utilizando **npm** para la gestión de dependencias, comandos de **terminal** y colaboración mediante **GitHub**. 
+
+El **objetivo** fue crear un programa que mostrara mensajes estilizados en la consola usando la librería **chalk**, mientras practicábamos el flujo de trabajo colaborativo con ramas, commits y pull requests.
 
 <div align="center">
 
@@ -71,15 +72,6 @@ terminal-color/
 | `console.warn()` | Advertencias preventivas.              |
 | `console.error()`| Errores o problemas importantes.       |
 
-## 🎓 Conclusión
-
-Este proyecto nos permitió:
-- Trabajar en equipo de manera organizada.
-- Usar herramientas reales de desarrollo profesional.
-- Entender cómo se estructura y ejecuta un proyecto en Node.js.
-- Practicar decisiones técnicas importantes (como `.gitignore` y manejo de dependencias).
-
-
 ## 🧱 Aportes por Equipo
 
 ### 🔹 Equipo A — Función `mostrarEstado()`
@@ -98,3 +90,10 @@ Este proyecto nos permitió:
 
 ![Resultado del Proyecto](./images/resultado_final.png)
 
+## 🎓 Conclusión
+
+Este proyecto nos permitió:
+- Trabajar en equipo de manera organizada.
+- Usar herramientas reales de desarrollo profesional.
+- Entender cómo se estructura y ejecuta un proyecto en Node.js.
+- Practicar decisiones técnicas importantes (como `.gitignore` y manejo de dependencias).
