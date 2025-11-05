@@ -90,6 +90,22 @@ terminal-color/
 
 ![Resultado del Proyecto](./images/resultado_final.png)
 
+## 💀 Errores que Ocurrieron
+
+Al crear el repositorio inicialmente **no incluimos** el archivo `.gitignore`, por lo que la carpeta `node_modules/` se subió completa a GitHub.  
+Esto hizo que el repositorio quedara más pesado de lo necesario.
+
+Para solucionarlo:
+
+1. Creamos el archivo `.gitignore` en la raíz del proyecto.
+2. Dentro añadimos la siguiente línea: node_modules/
+3. Luego eliminamos la carpeta node_modules
+
+### Con esto aprendimos la importancia de:
+
+- Evitar subir archivos pesados e innecesarios al repositorio.
+- Usar .gitignore desde el inicio del proyecto para mantener el repositorio limpio y profesional.
+
 ## 🎓 Conclusión
 
 Este proyecto nos permitió:
