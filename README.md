@@ -1,2 +1,100 @@
-# terminal-color
-La Terminal Parlante mostrará mensajes coloridos en la consola
+<h1 align="center">🎙️ La Terminal Parlante 🎙️ </h1>
+
+Este proyecto fue desarrollado en el contexto del aprendizaje de **Node.js**, **npm**, **terminal**, y **trabajo colaborativo con Git**.  
+El **objetivo** fue crear un programa que mostrara mensajes estilizados en la consola usando la librería **chalk**, aplicando estructuras de desarrollo grupal y control de versiones.
+
+<div align="center">
+
+<table>
+<tr>
+<td>
+
+## 👥 Equipo Q-ERO v3 Protocol
+
+- Washington Mardones
+- Agustín Valenzuela
+- Karim Valenzuela  
+- Javier Valenzuela   
+- Anita Morales  
+- Nicolás Peña 
+
+
+</td>
+<td align="center" valign="middle" width="320">
+  <img src="./images/logo_Q-ERO.png" alt="Logo Q-ERO v3 Protocol" width="270">
+</td>
+</tr>
+</table>
+
+</div>
+
+## 🧩 Objetivos del Desafío
+
+- Instalar dependencias usando **npm**.
+- Utilizar distintos tipos de mensajes en consola: `log`, `info`, `warn`, `error`.
+- Aplicar **modularidad** con funciones.
+- Trabajar en **ramas por equipo** y usar **Pull Requests**.
+- Implementar `.gitignore` para evitar subir archivos innecesarios.
+
+
+## 🗂️ Estructura del Proyecto
+terminal-color/   
+├── README.md   
+├── index.js   
+├── package.json    
+├── package-lock.json ← Se mantiene (asegura versiones iguales para todos)    
+└── .gitignore ← Evita subir node_modules     
+
+> `node_modules/` no se sube al repositorio, pero se genera automáticamente con `npm install`
+
+## 🧠 Reflexión
+
+### 📦 ¿Qué aprendimos sobre dependencias y npm?
+
+- `npm` permite instalar herramientas externas que podemos usar en nuestro programa.
+- `package.json` registra qué dependencias utiliza el proyecto.
+- Aprendimos que **`node_modules/` no debe subirse al repositorio** porque se puede regenerar con `npm install`.
+- **`package-lock.json` sí se mantiene**, ya que asegura que todos tengamos las mismas versiones de dependencias en nuestros equipos.
+
+### 🌿 ¿Por qué es importante trabajar con ramas?
+
+- Evita conflictos cuando varias personas trabajan al mismo tiempo.
+- Permite desarrollar funciones o partes del proyecto sin romper el código principal.
+- Facilita la revisión y el control antes de mezclar los cambios en la rama `main`.
+
+### 📝 Diferencias entre los tipos de `console`
+
+| Comando          | Uso recomendado                        |
+|------------------|----------------------------------------|
+| `console.log()`  | Mensajes generales.                    |
+| `console.info()` | Información útil o de estado.          |
+| `console.warn()` | Advertencias preventivas.              |
+| `console.error()`| Errores o problemas importantes.       |
+
+## 🎓 Conclusión
+
+Este proyecto nos permitió:
+- Trabajar en equipo de manera organizada.
+- Usar herramientas reales de desarrollo profesional.
+- Entender cómo se estructura y ejecuta un proyecto en Node.js.
+- Practicar decisiones técnicas importantes (como `.gitignore` y manejo de dependencias).
+
+
+## 🧱 Aportes por Equipo
+
+### 🔹 Equipo A — Función `mostrarEstado()`
+
+![Función del Equipo A](./images/equipoA.png)
+
+### 🔹 Equipo B — Función `simularError()`
+
+![Función del Equipo B](./images/equipoB.png)
+
+### 🔹 Equipo A + Equipo B
+
+![Equipo A + Equipo B](./images/equipoayequipob.png)
+
+## 🖼️ Resultado Final del Proyecto
+
+![Resultado del Proyecto](./images/resultado_final.png)
+
