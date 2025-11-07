@@ -113,3 +113,5 @@ Este proyecto nos permitió:
 - Usar herramientas reales de desarrollo profesional.
 - Entender cómo se estructura y ejecuta un proyecto en Node.js.
 - Practicar decisiones técnicas importantes (como `.gitignore` y manejo de dependencias).
+
+## 🧑‍💻 Autor: **RyuZeNK.Ai**   
